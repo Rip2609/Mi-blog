@@ -1,92 +1,78 @@
+/* ====== ESTILO GENERAL ====== */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #eef6ff; /* fondo azul muy clarito */
+    background-color: #eef6ff; /* Azul muy claro */
     margin: 0;
+    padding: 0;
+    color: #333;
 }
 
+/* ====== HEADER ====== */
+
 header {
-    background: #7ec8e3; /* azul clarito */
+    background: #7ec8e3; /* Azul claro */
     color: white;
     text-align: center;
-    padding: 25px;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
 }
 
 header p {
-    margin-top: 5px;
+    margin-top: 8px;
+    font-size: 1.1em;
 }
 
-main {
-    width: 80%;
-    margin: 30px auto;
-}
+/* ====== CONTENIDO PRINCIPAL ====== */
 
-article {
-    background: white;
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-}
-
-article img {
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-
-h2 {
-    color: #4aa3df; /* azul más intenso para títulos */
-}
-
-article p {
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-footer {
-    text-align: center;
-    background: #7ec8e3;
-    color: white;
-    padding: 15px;
-}
-nav {
-    margin-top: 15px;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 main {
     width: 85%;
-    margin: 40px auto;
+    margin: 50px auto;
 }
+
+/* ====== TARJETA PRINCIPAL ====== */
 
 .card {
     background: white;
-    margin-bottom: 40px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
+
+/* ====== TÍTULOS ====== */
+
+.card h2 {
+    color: #4aa3df; /* Azul más fuerte */
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* ====== PÁRRAFOS ====== */
+
+.card p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* ====== IMÁGENES ====== */
 
 .card img {
     width: 100%;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0 25px 0;
 }
 
-.card h2 {
-    color: #4aa3df;
-    margin-bottom: 10px;
-}
+/* ====== FOOTER ====== */
 
-.card p {
-    line-height: 1.6;
+footer {
+    background: #7ec8e3;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 50px;
+    font-size: 0.95em;
 }
