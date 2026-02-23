@@ -63,12 +63,30 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+main {
+    width: 85%;
+    margin: 40px auto;
+}
 
-section {
+.card {
     background: white;
-    margin: 25px auto;
+    margin-bottom: 40px;
     padding: 20px;
-    border-radius: 12px;
-    width: 80%;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #4aa3df;
+    margin-bottom: 10px;
+}
+
+.card p {
+    line-height: 1.6;
 }
